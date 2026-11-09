@@ -1,0 +1,28 @@
+@use "./../../public/mixins" as *;
+.container{
+    h1{
+        text-align: center;
+    }
+    .row{
+        .item{
+            text-align: center;
+            color:#fff;
+        }
+    }
+    .row{
+        .itemCard{
+            p.card-text{
+                color: #ccc;
+            }
+            p.qun{
+                span{
+                    display: inline-block;
+                    width:20px;
+                    height:25px;
+                    text-align: center;
+                    color:#fff;
+                }
+            }
+        }
+    }
+}
